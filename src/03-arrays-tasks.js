@@ -37,10 +37,10 @@ function findElement(arr, value) {
  */
 function generateOdds(len) {
   const res = Array.from(
-    {length: len},
-    (_, i) => 1 + (i * 2)
+    { length: len },
+    (_, i) => 1 + (i * 2),
   );
-  return res
+  return res;
 }
 
 
@@ -72,14 +72,15 @@ function doubleArray(arr) {
  *    [-1, 2, -5, -4, 0] => [ 2 ]
  *    [] => []
  */
-function getArrayOfPositives(arr) {
-  let res = [];
-  arr.map(el => {
-    if (el > 0) {
-      res.push(el)
-    }
-  });
-  return res;
+function getArrayOfPositives(/* arr */) {
+  throw new Error('Not implemented');
+  // const res = [];
+  // arr.map((el) => {
+  //   if (el > 0) {
+  //     res.push(el);
+  //   }
+  // });
+  // return res;
 }
 
 /**
